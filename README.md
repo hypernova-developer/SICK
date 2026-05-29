@@ -17,3 +17,6 @@ SICK isolates the Core Kernel logic inside strict execution boundaries. High-lev
 ## Code Style Manifesto
 - **Memory Integrity:** Avoid raw pointers; resource boundaries are tightly regulated via `std::unique_ptr` and standard filesystem vectors.
 - **Encapsulation Density:** Components maintain atomic state managers, keeping performance overhead at absolute zero.
+
+## Licensing
+This project is protected under the **GNU GPL v3.0 License**. All rights reserved by **hypernova-developer**.
